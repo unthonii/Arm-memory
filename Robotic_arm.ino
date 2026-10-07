@@ -3,7 +3,7 @@
 
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver(0x40);
 
-// === Servo setup ===
+// === Servo setup =======
 #define SERVO_COUNT 5
 int potPin[SERVO_COUNT] = {A4, A3, A2, A1, A0};
 
